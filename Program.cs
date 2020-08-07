@@ -41,6 +41,10 @@ namespace DSQLDM
                      DATA_TYPE AS [DataType],
                      CHARACTER_MAXIMUM_LENGTH AS [CharMaxLength]  FROM  INFORMATION_SCHEMA.COLUMNS", new {  });
             Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(p));
-          }
+            /*
+             {"Name":"xserver_name","OrdinalPosition":1,"DataType":"varchar","CharMaxLength":30,"ClTable":{"Name":"spt_fallback_db","Schema":{"Name":"dbo"}}}
+             
+             */
+        }
     }
 }
