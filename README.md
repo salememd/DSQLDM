@@ -1,5 +1,5 @@
 # DSQLDM
-Class to change Dapper query result set to a domain model
+Dapper query result set to a domain model
 
 Example: - (Available in Program.cs)
 
