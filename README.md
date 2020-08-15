@@ -1,5 +1,5 @@
 # DSQLDM
-Dapper query result set to a domain model
+Mapping Dapper query result set to a domain model
 
 Example: - (Available in Program.cs)
 
